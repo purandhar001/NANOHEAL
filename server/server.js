@@ -29,7 +29,7 @@ const db = admin.firestore();
 
 // Initialize the Google AI client with your API key from .env
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
 
 // 2. API ROUTES (ENDPOINTS)
